@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contact Me</title>
+</head>
+
+<body>
+  <h1>Contact Details</h1>
+  <p>Mobile: +866-970-063-555</p>
+  <p>Email: jabondias@gmail.com</p>
+  <hr>
+  <form action="mailto:jabondias@gmail.com" method="post" enctype="text/plain"> <!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form -->
+    <label>Your Name: </label>
+    <input type="text" name="YourName" value=""><br> <!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input -->
+    <label>Your Email: </label>
+    <input type="email" name="YourEmail" value=""><br> <!-- name="YourEmail" 會做validation, 確保用戶輸入包含 @-->
+    <label>Your Message: </label><br>
+    <textarea name="YourMessage" rows="10" cols="35"></textarea><br>
+    <input type="submit" name=""><br>
+  </form>
+
+</body>
+
+</html>
